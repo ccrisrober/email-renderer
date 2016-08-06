@@ -1,8 +1,14 @@
 {
   "name": "email-renderer",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Simple email renderer with HTML and text mode",
   "main": "index.js",
+  "dependencies": {
+    "async.parallel": "^0.5.2",
+    "ejs": "^2.5.1",
+    "deasync": "^0.1.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/maldicion069/email-renderer.git"
   },
+  "keywords": [
+    "ejs",
+    "html",
+    "email",
+    "templates",
+    "async"
+  ],
   "author": "maldicion069 <ccrisrober@gmail.com>",
   "license": "MIT",
   "bugs": {
