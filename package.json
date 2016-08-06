@@ -1,0 +1,24 @@
+{
+  "name": "email-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maldicion069/email-renderer.git"
+  },
+  "author": "maldicion069 <ccrisrober@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maldicion069/email-renderer/issues"
+  },
+  "homepage": "https://github.com/maldicion069/email-renderer#readme",
+  "dependencies": {
+    "async.parallel": "^0.5.2",
+    "deasync": "^0.1.7",
+    "ejs": "^2.5.1"
+  }
+}
